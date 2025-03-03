@@ -1,0 +1,2 @@
+ID    Name    math  comput average
+1       d      50       1  25.500000l
