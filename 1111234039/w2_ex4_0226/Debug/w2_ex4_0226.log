@@ -1,0 +1,17 @@
+﻿  Source.cpp
+D:\資應二下劉祐呈\w2_ex4_0226\Source.cpp(15,17): warning C4477: 'fprintf' : 格式字串 '%s' 需要 'char *' 類型的引數，但 variadic 引數 1 的類型為 'int'
+D:\資應二下劉祐呈\w2_ex4_0226\Source.cpp(15,17): warning C4476: 'fprintf' : 格式規範中有未知的類型欄位字元 '\xef'
+D:\資應二下劉祐呈\w2_ex4_0226\Source.cpp(15,35): warning C4474: 'fprintf': 傳遞給格式字串的引數太多
+D:\資應二下劉祐呈\w2_ex4_0226\Source.cpp(15,35): message : 預留位置及其參數需要 1 個 variadic 引數，但卻提供了 2 個
+D:\資應二下劉祐呈\w2_ex4_0226\Source.cpp(16,17): warning C4477: 'fprintf' : 格式字串 '%s' 需要 'char *' 類型的引數，但 variadic 引數 1 的類型為 'int'
+D:\資應二下劉祐呈\w2_ex4_0226\Source.cpp(16,17): warning C4476: 'fprintf' : 格式規範中有未知的類型欄位字元 '\xef'
+D:\資應二下劉祐呈\w2_ex4_0226\Source.cpp(16,35): warning C4474: 'fprintf': 傳遞給格式字串的引數太多
+D:\資應二下劉祐呈\w2_ex4_0226\Source.cpp(16,35): message : 預留位置及其參數需要 1 個 variadic 引數，但卻提供了 2 個
+D:\資應二下劉祐呈\w2_ex4_0226\Source.cpp(17,17): warning C4477: 'fprintf' : 格式字串 '%s' 需要 'char *' 類型的引數，但 variadic 引數 1 的類型為 'int'
+D:\資應二下劉祐呈\w2_ex4_0226\Source.cpp(17,17): warning C4476: 'fprintf' : 格式規範中有未知的類型欄位字元 '\xef'
+D:\資應二下劉祐呈\w2_ex4_0226\Source.cpp(17,35): warning C4474: 'fprintf': 傳遞給格式字串的引數太多
+D:\資應二下劉祐呈\w2_ex4_0226\Source.cpp(17,35): message : 預留位置及其參數需要 1 個 variadic 引數，但卻提供了 2 個
+D:\資應二下劉祐呈\w2_ex4_0226\Source.cpp(12,10): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\資應二下劉祐呈\w2_ex4_0226\Source.cpp(20,10): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\資應二下劉祐呈\w2_ex4_0226\Source.cpp(24,16): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\資應二下劉祐呈\w2_ex4_0226\Source.cpp(9,11): warning C4101: 'avg': 未參考的區域變數

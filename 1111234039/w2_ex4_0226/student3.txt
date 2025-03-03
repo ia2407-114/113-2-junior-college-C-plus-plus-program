@@ -1,0 +1,2 @@
+ID    Name    math  comput average
+6    Rose      56      87  71.500000l
