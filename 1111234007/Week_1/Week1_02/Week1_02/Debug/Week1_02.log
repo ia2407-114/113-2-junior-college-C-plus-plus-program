@@ -1,0 +1,4 @@
+﻿  Source.cpp
+E:\程式設計\Week1_02\Week1_02\Source.cpp(20,1): warning C4326: 'main' 的傳回類型應該是 'int'，而非 'void'
+  LINK : 最後的累加連結找不到或未建置 E:\程式設計\Week1_02\Debug\Week1_02.exe，正在執行完整連結
+  Week1_02.vcxproj -> E:\程式設計\Week1_02\Debug\Week1_02.exe
