@@ -1,0 +1,4 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: 中繼目錄 (x64\Debug\) 包含從其他專案 (0217.vcxproj, 0226.vcxproj) 共用的檔案。這可能導致錯誤的清除和重建行為。
+  0217-1.cpp
+C:\Users\user\Desktop\0226\0226\0217-1.cpp(20,1): warning C4326: 'main' 的傳回類型應該是 'int'，而非 'void'
+  0226.vcxproj -> C:\Users\user\Desktop\0226\0226\x64\Debug\0217-1.exe
