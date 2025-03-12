@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\User\Desktop\Week4\Week4_1\Week4_1\Source.cpp(7,5): warning C4091: '': 當沒有宣告變數時，忽略 'int' 的左方
+C:\Users\User\Desktop\Week4\Week4_1\Week4_1\Source.cpp(14,18): error C2086: 'int h': 重複定義
+C:\Users\User\Desktop\Week4\Week4_1\Week4_1\Source.cpp(14): message : 請參閱 'h' 的宣告
