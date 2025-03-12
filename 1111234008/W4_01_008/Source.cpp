@@ -16,7 +16,8 @@ int main() {
 		cout << "正方形的體積為:" << volume(a);
 	}
 	else if (choice == 2) {
-		int r,height;
+		int r;
+		double height;
 		cout << "輸入圓柱體的半徑 高度";
 		cin >> r >> height;
 		cout << "圓柱體的體積為:" << volume(r ,height);
@@ -25,7 +26,7 @@ int main() {
 		int height,  width , length;
 		cout << "輸入長方體的長 寬 高";
 		cin >> height >> width >> length;
-		cout << "正方形的體積為:" << volume(height , width , length);
+		cout << "長方體的體積為:" << volume(height , width , length);
 	}
 
 
@@ -34,7 +35,7 @@ int volume(double a) {
 	return a * a * a;
 }
 double volume(int r, double height) {
-	return r * r * 3.14159 * height;
+	return (double)r * r * 3.14159 * height;
 }
 int volume(int height, int width ,int length) {
 	return height * width * length;
