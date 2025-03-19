@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\Users\User\Desktop\Week_5-01\Week_5-01\Source.cpp(16,1): error C2612: 結尾的 '類型' 在基底類別/成員類別初始設定式清單中不合法
+C:\Users\User\Desktop\Week_5-01\Week_5-01\Source.cpp(51,1): fatal error C1004: 找到未預期的檔案結尾
