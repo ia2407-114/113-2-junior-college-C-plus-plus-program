@@ -1,33 +1,46 @@
-// Fig. 11.10: fig11_10.c
-// Creating a random-access file sequentially
 #include <stdio.h>
 
-// clientData structure definition            
-typedef struct student {   //定義結構
-    int     ID;
-    char    name[20];
-    int     math, comput;
-    float   AVG;
-}stu;
+/*
+typedef struct clientData {
+	int accountNum;
+	char lastName[15];
+	char firstName[10];
+	double balance;
+} client;
+*/
 
-int main(void)
+typedef struct student {
+	int id;
+	char name[20];
+	int math, comput;
+	float avg;
+} stu;
+
+void main(void)
 {
-    FILE* cfPtr = NULL; // accounts.dat file pointer //建立檔案指標
+	FILE* cfPtr;
+	stu stuData = { 0, "", 0, 0, 0.0 };
 
-    // fopen opens the file; exits if file cannot be opened
-    if ((fopen_s(&cfPtr, "accounts.dat", "wb")) != 0) { //開啟檔案
-        puts("File could not be opened.");
-    }
-    else {
-        // create clientData with default information       
-        stu blankStudent = { 0, "",0,0, 0.0 };
+	if (fopen_s(&cfPtr, "stu003.dat", "rb+") != 0) { //fopen_s成功建立並且開啟回傳值為0
+		puts("File could not be opened");
+	}
+	else {
+		printf("請輸入學生ID:");
+		scanf_s("%d", &stuData.id);
 
-        // output 100 blank records to file                              
-        for (unsigned int i = 1; i <= 100; ++i) {
-            fwrite(&blankStudent, sizeof(stu), 1, cfPtr);
-        }
+		while (stuData.id != 0) {
+			printf("%s", "請輸入name, math, comput, avg:");
+			fscanf_s(stdin, "%s", stuData.name, 20);
+			fscanf_s(stdin, "%d", &stuData.math);
+			fscanf_s(stdin, "%d", &stuData.comput);
+			fscanf_s(stdin, "%f", &stuData.avg);
+			fseek(cfPtr, (stuData.id - 1) * sizeof(stu), SEEK_SET);
+			fwrite(&stuData, sizeof(stu), 1, cfPtr);
 
-        fclose(cfPtr); // fclose closes the file
-    }
-    return 0;
+			printf("%s", "輸入學生ID:");
+			scanf_s("%d", &stuData.id);
+		}
+
+		fclose(cfPtr);
+	}
 }
