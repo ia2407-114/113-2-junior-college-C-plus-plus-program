@@ -21,7 +21,7 @@ void main(void)
 	FILE* cfPtr;
 	stu stuData = { 0, "", 0, 0, 0.0 };
 
-	if (fopen_s(&cfPtr, "stu003.dat", "rb+") != 0) { //fopen_s成功建立並且開啟回傳值為0
+	if (fopen_s(&cfPtr, "accounts.dat", "rb+") != 0) { //fopen_s成功建立並且開啟回傳值為0
 		puts("File could not be opened");
 	}
 	else {
