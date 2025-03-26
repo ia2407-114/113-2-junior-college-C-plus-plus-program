@@ -1,0 +1,17 @@
+﻿  Source.cpp
+C:\Users\User\Desktop\week6\week6\Source.cpp(17,7): error C2628: 'PetDog' 之後接續 'void' 不合法 (是否缺少 ';'?
+C:\Users\User\Desktop\week6\week6\Source.cpp(19,13): error C2065: 'age': 未宣告的識別項
+C:\Users\User\Desktop\week6\week6\Source.cpp(22,22): error C2601: 'getName': 區域函式定義不合法
+C:\Users\User\Desktop\week6\week6\Source.cpp(17): message : 此行包含沒有相對應符號的 '{'
+C:\Users\User\Desktop\week6\week6\Source.cpp(26,18): error C2601: 'getAge': 區域函式定義不合法
+C:\Users\User\Desktop\week6\week6\Source.cpp(17): message : 此行包含沒有相對應符號的 '{'
+C:\Users\User\Desktop\week6\week6\Source.cpp(30,22): error C2601: 'printInfo': 區域函式定義不合法
+C:\Users\User\Desktop\week6\week6\Source.cpp(17): message : 此行包含沒有相對應符號的 '{'
+C:\Users\User\Desktop\week6\week6\Source.cpp(23,16): error C2065: 'name': 未宣告的識別項
+C:\Users\User\Desktop\week6\week6\Source.cpp(27,16): error C2065: 'age': 未宣告的識別項
+C:\Users\User\Desktop\week6\week6\Source.cpp(31,37): error C2065: 'name': 未宣告的識別項
+C:\Users\User\Desktop\week6\week6\Source.cpp(32,37): error C2065: 'age': 未宣告的識別項
+C:\Users\User\Desktop\week6\week6\Source.cpp(47,9): error C2039: 'setAge': 並非 'PetDog' 的成員
+C:\Users\User\Desktop\week6\week6\Source.cpp(5): message : 請參閱 'PetDog' 的宣告
+C:\Users\User\Desktop\week6\week6\Source.cpp(49,9): error C2039: 'printInfo': 並非 'PetDog' 的成員
+C:\Users\User\Desktop\week6\week6\Source.cpp(5): message : 請參閱 'PetDog' 的宣告
