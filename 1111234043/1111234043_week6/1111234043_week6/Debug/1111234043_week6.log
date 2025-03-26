@@ -1,0 +1,8 @@
+﻿  Source.cpp
+E:\程式設計\1111234043_week6\1111234043_week6\Source.cpp(97,1): error C2011: 'PetDog': 'class' 類型重複定義
+E:\程式設計\1111234043_week6\1111234043_week6\Source.cpp(6): message : 請參閱 'PetDog' 的宣告
+E:\程式設計\1111234043_week6\1111234043_week6\Source.cpp(154,5): error C2084: 函式 'int main(void)' 的主體已經被宣告了
+E:\程式設計\1111234043_week6\1111234043_week6\Source.cpp(64): message : 請參閱 'main' 之前的定義
+E:\程式設計\1111234043_week6\1111234043_week6\Source.cpp(160,12): error C2079: 'myDog' 使用未定義的 class 'PetDog'
+E:\程式設計\1111234043_week6\1111234043_week6\Source.cpp(160,29): error C2440: '正在初始化': 無法由 'initializer list' 轉換為 'int'
+E:\程式設計\1111234043_week6\1111234043_week6\Source.cpp(160,17): message : 初始設定式清單包含太多項目
