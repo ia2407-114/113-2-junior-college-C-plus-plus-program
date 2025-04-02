@@ -1,0 +1,3 @@
+﻿  Source.cpp
+E:\程式設計(二下)\資應二下劉祐呈\w2_ex1_0226\Source.cpp(26,50): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  w2_ex1_0226.vcxproj -> E:\程式設計(二下)\資應二下劉祐呈\w2_ex1_0226\Debug\w2_ex1_0226.exe
