@@ -1,0 +1,2 @@
+﻿  Source.cpp
+F:\二年級\C語言\''''2下\0226_002(28)\0226_002(28)\Source.cpp(18,13): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
