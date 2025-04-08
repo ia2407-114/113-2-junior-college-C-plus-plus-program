@@ -1,0 +1,32 @@
+﻿  Source.cpp
+C:\Users\User\Desktop\week 0305\week 0305\Source.cpp(20,6): error C2059: 語法錯誤: 'delete'
+C:\Users\User\Desktop\week 0305\week 0305\Source.cpp(36,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\User\Desktop\week 0305\week 0305\Source.cpp(74,54): error C2440: '正在初始化': 無法由 'void *' 轉換為 'ClientDataPtr'
+C:\Users\User\Desktop\week 0305\week 0305\Source.cpp(74,26): message : 從非 'void' 的指標轉換為 'void*' 必須是明確轉換
+C:\Users\User\Desktop\week 0305\week 0305\Source.cpp(109,6): error C2632: 'char' 之後跟隨 'double' 是不合法的
+C:\Users\User\Desktop\week 0305\week 0305\Source.cpp(109,26): error C2143: 語法錯誤: 遺漏 ')' (在 '*' 之前)
+C:\Users\User\Desktop\week 0305\week 0305\Source.cpp(109,26): error C2143: 語法錯誤: 遺漏 ';' (在 '*' 之前)
+C:\Users\User\Desktop\week 0305\week 0305\Source.cpp(109,26): error C2377: 'ClientDataPtr': 重複定義; typedef 無法以其他符號多載
+C:\Users\User\Desktop\week 0305\week 0305\Source.cpp(16): message : 請參閱 'ClientDataPtr' 的宣告
+C:\Users\User\Desktop\week 0305\week 0305\Source.cpp(109,32): error C4430: 遺漏類型規範 - 假設為 int。注意: C++ 不支援 default-int
+C:\Users\User\Desktop\week 0305\week 0305\Source.cpp(109,34): error C2062: 未預期的類型 'unsigned int'
+C:\Users\User\Desktop\week 0305\week 0305\Source.cpp(109,49): error C2059: 語法錯誤: ')'
+C:\Users\User\Desktop\week 0305\week 0305\Source.cpp(110,1): error C2143: 語法錯誤: 遺漏 ';' (在 '{' 之前)
+C:\Users\User\Desktop\week 0305\week 0305\Source.cpp(110,1): error C2447: '{': 遺漏函式標頭 (舊樣式型式清單?)
+C:\Users\User\Desktop\week 0305\week 0305\Source.cpp(139,5): error C2365: 'isEmpty': 重複定義，先前的定義是 '函式'
+C:\Users\User\Desktop\week 0305\week 0305\Source.cpp(21): message : 請參閱 'isEmpty' 的宣告
+C:\Users\User\Desktop\week 0305\week 0305\Source.cpp(139,27): error C2146: 語法錯誤: 遺漏 ')' (在識別項 'sPtr' 之前)
+C:\Users\User\Desktop\week 0305\week 0305\Source.cpp(140,1): error C2143: 語法錯誤: 遺漏 ';' (在 '{' 之前)
+C:\Users\User\Desktop\week 0305\week 0305\Source.cpp(140,1): error C2447: '{': 遺漏函式標頭 (舊樣式型式清單?)
+C:\Users\User\Desktop\week 0305\week 0305\Source.cpp(145,6): error C2182: 'printList': 類型 'void' 的使用不合法
+C:\Users\User\Desktop\week 0305\week 0305\Source.cpp(145,6): error C2365: 'printList': 重複定義，先前的定義是 '函式'
+C:\Users\User\Desktop\week 0305\week 0305\Source.cpp(22): message : 請參閱 'printList' 的宣告
+C:\Users\User\Desktop\week 0305\week 0305\Source.cpp(145,30): error C2146: 語法錯誤: 遺漏 ')' (在識別項 'currentPtr' 之前)
+C:\Users\User\Desktop\week 0305\week 0305\Source.cpp(146,1): error C2143: 語法錯誤: 遺漏 ';' (在 '{' 之前)
+C:\Users\User\Desktop\week 0305\week 0305\Source.cpp(146,1): error C2447: '{': 遺漏函式標頭 (舊樣式型式清單?)
+C:\Users\User\Desktop\week 0305\week 0305\Source.cpp(163,6): error C2182: 'calculateAverage': 類型 'void' 的使用不合法
+C:\Users\User\Desktop\week 0305\week 0305\Source.cpp(163,6): error C2365: 'calculateAverage': 重複定義，先前的定義是 '函式'
+C:\Users\User\Desktop\week 0305\week 0305\Source.cpp(24): message : 請參閱 'calculateAverage' 的宣告
+C:\Users\User\Desktop\week 0305\week 0305\Source.cpp(163,37): error C2146: 語法錯誤: 遺漏 ')' (在識別項 'student' 之前)
+C:\Users\User\Desktop\week 0305\week 0305\Source.cpp(164,1): error C2143: 語法錯誤: 遺漏 ';' (在 '{' 之前)
+C:\Users\User\Desktop\week 0305\week 0305\Source.cpp(164,1): error C2447: '{': 遺漏函式標頭 (舊樣式型式清單?)
