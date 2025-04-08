@@ -1,0 +1,2 @@
+﻿  Source.cpp
+E:\c++\week2 0226\week2 0226\Source.cpp(18,18): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
