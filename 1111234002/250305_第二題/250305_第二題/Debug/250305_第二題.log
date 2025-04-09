@@ -1,0 +1,6 @@
+﻿  Source.cpp
+E:\nutc\c下\250305_第二題\250305_第二題\Source.cpp(46,21): warning C4473: 'scanf_s' : 傳遞給格式字串的引數不足
+E:\nutc\c下\250305_第二題\250305_第二題\Source.cpp(46,21): message : 預留位置及其參數需要 2 個 variadic 引數，但卻提供了 1 個
+E:\nutc\c下\250305_第二題\250305_第二題\Source.cpp(46,21): message : 缺少 variadic 引數 2 (其為格式字串 '%14s' 所需)
+E:\nutc\c下\250305_第二題\250305_第二題\Source.cpp(46,21): message : 此引數可用為緩衝區大小
+E:\nutc\c下\250305_第二題\250305_第二題\Source.cpp(95,9): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
