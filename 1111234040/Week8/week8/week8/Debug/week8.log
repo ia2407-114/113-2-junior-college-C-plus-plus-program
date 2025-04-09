@@ -1,0 +1,15 @@
+﻿  implement.cpp
+C:\Users\User\Desktop\Week8\week8\week8\implement.cpp(65,29): warning C4566: 由通用字元名稱 '\u00A6' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\Week8\week8\week8\implement.cpp(65,29): warning C4566: 由通用字元名稱 '\u00E8' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\Week8\week8\week8\implement.cpp(65,29): warning C4566: 由通用字元名稱 '\u00A4' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\Week8\week8\week8\implement.cpp(65,29): warning C4566: 由通用字元名稱 '\u00B8' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\Week8\week8\week8\implement.cpp(65,56): warning C4566: 由通用字元名稱 '\u00A6' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\Week8\week8\week8\implement.cpp(66,37): warning C4566: 由通用字元名稱 '\u00A4' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\Week8\week8\week8\implement.cpp(66,37): warning C4566: 由通用字元名稱 '\u00EB' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\Week8\week8\week8\implement.cpp(71,29): warning C4566: 由通用字元名稱 '\u00A5' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\Week8\week8\week8\implement.cpp(71,29): warning C4566: 由通用字元名稱 '\u00C1' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\Week8\week8\week8\implement.cpp(71,29): warning C4566: 由通用字元名稱 '\u00EA' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\Week8\week8\week8\implement.cpp(71,63): warning C4566: 由通用字元名稱 '\u00A6' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\Week8\week8\week8\implement.cpp(72,37): warning C4566: 由通用字元名稱 '\u00A4' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\Week8\week8\week8\implement.cpp(72,37): warning C4566: 由通用字元名稱 '\u00EB' 表示的字元，無法在目前的字碼頁中表示 (950)
+  week8.vcxproj -> C:\Users\User\Desktop\Week8\week8\Debug\week8.exe
