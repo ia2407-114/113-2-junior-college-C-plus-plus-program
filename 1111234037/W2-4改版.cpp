@@ -1,66 +1,34 @@
 #include <stdio.h>
-
-
-struct stuData {
-    char Name[50];  
-    double math;  
-    double computer;
-};
-
-int main()
-{
-    FILE* fp; 
-    char fname[20] = "students.txt";
-    struct stuData stu1, stu2, stu3;
-
- 
-    printf("¿é¤J¾Ç¥Í1ªº©m¦W¡G");
+struct stuData {char Name[50];  double math;  
+    double computer;};int main(){FILE* fp; 
+    char fname[20] = "students.txt";struct stuData stu1, stu2, stu3;
+    printf("è¼¸å…¥å­¸ç”Ÿ1çš„å§“åï¼š");
     scanf_s("%49s", stu1.Name, sizeof(stu1.Name));
-    printf("¿é¤J¾Ç¥Í1ªº¼Æ¾Ç¦¨ÁZ¡G");
+    printf("è¼¸å…¥å­¸ç”Ÿ1çš„æ•¸å­¸æˆç¸¾ï¼š");
     scanf_s("%lf", &stu1.math);
-    printf("¿é¤J¾Ç¥Í1ªº­pºâ¾÷¦¨ÁZ¡G");
+    printf("è¼¸å…¥å­¸ç”Ÿ1çš„è¨ˆç®—æ©Ÿæˆç¸¾ï¼š");
     scanf_s("%lf", &stu1.computer);
-
-   
-    printf("¿é¤J¾Ç¥Í2ªº©m¦W¡G");
+    printf("è¼¸å…¥å­¸ç”Ÿ2çš„å§“åï¼š");
     scanf_s("%49s", stu2.Name,sizeof(stu2.Name));
-    printf("¿é¤J¾Ç¥Í2ªº¼Æ¾Ç¦¨ÁZ¡G");
+    printf("è¼¸å…¥å­¸ç”Ÿ2çš„æ•¸å­¸æˆç¸¾ï¼š");
     scanf_s("%lf", &stu2.math);
-    printf("¿é¤J¾Ç¥Í2ªº­pºâ¾÷¦¨ÁZ¡G");
+    printf("è¼¸å…¥å­¸ç”Ÿ2çš„è¨ˆç®—æ©Ÿæˆç¸¾ï¼š");
     scanf_s("%lf", &stu2.computer);
-
-  
-    printf("¿é¤J¾Ç¥Í3ªº©m¦W¡G");
+    printf("è¼¸å…¥å­¸ç”Ÿ3çš„å§“åï¼š");
     scanf_s("%49s", stu3.Name,sizeof(stu3.Name));
-    printf("¿é¤J¾Ç¥Í3ªº¼Æ¾Ç¦¨ÁZ¡G");
+    printf("è¼¸å…¥å­¸ç”Ÿ3çš„æ•¸å­¸æˆç¸¾ï¼š");
     scanf_s("%lf", &stu3.math);
-    printf("¿é¤J¾Ç¥Í3ªº­pºâ¾÷¦¨ÁZ¡G");
+    printf("è¼¸å…¥å­¸ç”Ÿ3çš„è¨ˆç®—æ©Ÿæˆç¸¾ï¼š");
     scanf_s("%lf", &stu3.computer);
-
     if (fopen_s(&fp, fname, "w") != 0) {  
-        printf("¿ù»~: ÀÉ®×¶}±Ò¿ù»~..\n");
-        return 1;
-    }
-
-    printf("¶}©l¼g¤JÀÉ®×%s..\n", fname);
-  
+        printf("éŒ¯èª¤: æª”æ¡ˆé–‹å•ŸéŒ¯èª¤..\n");return 1;}
+    printf("é–‹å§‹å¯«å…¥æª”æ¡ˆ%s..\n", fname);
     fprintf(fp, "%s,%.2f,%.2f\n", stu1.Name, stu1.math, stu1.computer);
     fprintf(fp, "%s,%.2f,%.2f\n", stu2.Name, stu2.math, stu2.computer);
     fprintf(fp, "%s,%.2f,%.2f\n", stu3.Name, stu3.math, stu3.computer);
-    printf("¼g¤JÀÉ®×µ²§ô!\n");
-    fclose(fp);
-
+    printf("å¯«å…¥æª”æ¡ˆçµæŸ!\n");fclose(fp);
     if (fopen_s(&fp, fname, "r") != 0) { 
-        printf("¿ù»~: ÀÉ®×¶}±Ò¿ù»~..\n");
-        return 1;
-    }
-
-    printf("ÀÉ®×¤º®e: \n");
-    char line[100];
-    while (fgets(line, sizeof(line), fp)) {
-        printf("%s", line);
-    }
-    fclose(fp);
-
-    return 0;
-}
+        printf("éŒ¯èª¤: æª”æ¡ˆé–‹å•ŸéŒ¯èª¤..\n");return 1;}
+    printf("æª”æ¡ˆå…§å®¹: \n");char line[100];
+    while (fgets(line, sizeof(line), fp)) {printf("%s", line);}
+    fclose(fp);return 0;}
