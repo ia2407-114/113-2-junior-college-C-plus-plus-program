@@ -14,12 +14,12 @@ int main()
     cout << "Initial dog name is: " << myGradeBook.getCourseName()
         << endl;
 
-    // prompt for, input and set course name
-    cout << "\nPlease enter the course dog name:" << endl;
+    // 提示、輸入和設定課程名稱
+    cout << "\n新增新的狗名:" << endl;
     getline(cin, nameOfCourse); // read a course name with blanks
     myGradeBook.setCourseName(nameOfCourse); // 設置狗名
 
-    cout << endl; // outputs a blank line
+    cout << endl; // 輸出一行空白
     myGradeBook.displayMessage(); // 輸出新的狗名
 } // end main
 
