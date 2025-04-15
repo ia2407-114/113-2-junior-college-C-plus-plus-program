@@ -7,11 +7,11 @@ using namespace std;
 // function main begins program execution
 int main()
 {
-    string nameOfCourse; //string是庫存類別  string of characters to store the course name
+    string nameOfCourse; //string竅O簧w礎s��臘禮O  string of characters to store the course name
     GradeBook myGradeBook("Dogs Networks");
     int pass = 1234;
     // display initial value of courseName
-    cout << "Initial course dog name is: " << myGradeBook.getCourseName()
+    cout << "Initial dog name is: " << myGradeBook.getCourseName()
         << endl;
 
     // prompt for, input and set course name
