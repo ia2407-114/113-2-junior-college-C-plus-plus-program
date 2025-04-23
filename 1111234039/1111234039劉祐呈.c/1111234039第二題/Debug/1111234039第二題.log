@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\User\Desktop\1111234039劉祐呈.c\1111234039第二題\Source.cpp(35,24): warning C4244: 'return': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\User\Desktop\1111234039劉祐呈.c\1111234039第二題\Source.cpp(40,22): warning C4244: 'return': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\User\Desktop\1111234039劉祐呈.c\1111234039第二題\Source.cpp(45,15): warning C4244: 'return': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  1111234039第二題.vcxproj -> C:\Users\User\Desktop\1111234039劉祐呈.c\1111234039第二題\Debug\1111234039第二題.exe
