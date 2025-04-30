@@ -1,20 +1,23 @@
 #ifndef DATE_H
 #define DATE_H
 
-class Date
-{
+class Date {
 public:
     static const unsigned int monthsPerYear = 12;
-    explicit Date(int = 1, int = 1, int = 2000);
+
+    Date(int m = 1, int d = 1, int y = 2000);
     void print() const;
+    int getYear() const;
+    int getMonth() const;
+    int getDay() const;
     ~Date();
-    int getYear() const { return year; }
+    static bool isValidDate(int d, int m, int y);
 private:
-    unsigned int month;
     unsigned int day;
+    unsigned int month;
     unsigned int year;
 
     unsigned int checkDay(int) const;
 };
 
-#endif 
+#endif

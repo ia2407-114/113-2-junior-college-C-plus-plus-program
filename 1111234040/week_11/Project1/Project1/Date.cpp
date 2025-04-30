@@ -1,11 +1,11 @@
+// Date.cpp
 #include <array>
 #include <iostream>
 #include <stdexcept>
 #include "Date.h"
 using namespace std;
 
-Date::Date(int mn, int dy, int yr)
-{
+Date::Date(int mn, int dy, int yr) {
     if (mn > 0 && mn <= monthsPerYear)
         month = mn;
     else
@@ -19,20 +19,21 @@ Date::Date(int mn, int dy, int yr)
     cout << endl;
 }
 
-void Date::print() const
-{
+void Date::print() const {
     cout << month << '/' << day << '/' << year;
 }
 
-Date::~Date()
-{
+Date::~Date() {
     cout << "Date object destructor for date ";
     print();
     cout << endl;
 }
 
-unsigned int Date::checkDay(int testDay) const
-{
+int Date::getYear() const { return year; }
+int Date::getMonth() const { return month; }
+int Date::getDay() const { return day; }
+
+unsigned int Date::checkDay(int testDay) const {
     static const array<int, monthsPerYear + 1> daysPerMonth =
     { 0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 
