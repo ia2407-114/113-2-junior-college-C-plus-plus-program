@@ -1,0 +1,9 @@
+﻿  Employee.cpp
+  fig9_21.cpp
+  正在產生程式碼...
+Employee.obj : error LNK2019: 在函式 "public: void __thiscall Date::setDateFromInput(void)" (?setDateFromInput@Date@@QAEXXZ)"public: void __thiscall Employee::setEmployeeFromInput(void)" (?setEmployeeFromInput@Employee@@QAEXXZ) 中參考了無法解析的外部符號
+Employee.obj : error LNK2019: 在函式 "public: void __thiscall Date::print(void)const " (?print@Date@@QBEXXZ)"public: void __thiscall Employee::print(void)const " (?print@Employee@@QBEXXZ) 中參考了無法解析的外部符號
+Employee.obj : error LNK2019: 在函式 "public: __thiscall Date::~Date(void)" (??1Date@@QAE@XZ)__unwindfunclet$??0Employee@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0ABVDate@@1@Z$2 中參考了無法解析的外部符號
+fig9_21.obj : error LNK2001: 無法解析的外部符號 "public: __thiscall Date::~Date(void)" (??1Date@@QAE@XZ)
+fig9_21.obj : error LNK2019: 在函式 "public: __thiscall Date::Date(void)" (??0Date@@QAE@XZ)_main 中參考了無法解析的外部符號
+C:\Users\User\Desktop\0507\Project1\Debug\Project1.exe : fatal error LNK1120: 4 個無法解析的外部符號
