@@ -2,33 +2,38 @@
 #include "Employee.h"
 using namespace std;
 
-Pet::Pet(const string& t, const string& n, const Date& bDate, const Date& aDate)
-    : type(t), name(n), birthDate(bDate), adoptDate(aDate)
-{
-    if (!checkAge())
-        throw invalid_argument("Invalid pet age or adoption date!");
+Employee::Employee() : birthDate(1, 1, 2000), hireDate(1, 1, 2020) {}
 
-    cout << "Pet object constructor: " << name << " (" << type << ")" << endl;
+Employee& Employee::setFirstName(const string& fName)
+{
+    firstName = fName;
+    return *this; // ¤ä´©¨ç¦¡¦ê±µ
 }
 
-void Pet::print() const
+Employee& Employee::setLastName(const string& lName)
 {
-    cout << "Pet Type: " << type << ", Name: " << name << "\nBirthday: ";
+    lastName = lName;
+    return *this;
+}
+
+Employee& Employee::setBirthDate(int month, int day, int year)
+{
+    birthDate = Date(month, day, year);
+    return *this;
+}
+
+Employee& Employee::setHireDate(int month, int day, int year)
+{
+    hireDate = Date(month, day, year);
+    return *this;
+}
+
+void Employee::print() const
+{
+    cout << "Employee Name: " << firstName << " " << lastName << "\n"
+        << "Birth Date: ";
     birthDate.print();
-    cout << "\nAdoption Date: ";
-    adoptDate.print();
+    cout << "\nHire Date: ";
+    hireDate.print();
     cout << endl;
 }
-
-Pet::~Pet()
-{
-    cout << "Pet object destructor: ";
-    print();
-}
-
-bool Pet::checkAge() const
-{
-    int age = adoptDate.getYear() - birthDate.getYear();
-    return (age >= 0 && age <= 20) && (birthDate.getYear() <= adoptDate.getYear());
-}
-

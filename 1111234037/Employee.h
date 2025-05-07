@@ -1,21 +1,27 @@
-#ifndef PET_H
-#define PET_H
+#ifndef EMPLOYEE_H
+#define EMPLOYEE_H
 
 #include <string>
 #include "Date.h"
 
-class Pet
+class Employee
 {
 public:
-    Pet(const std::string&, const std::string&, const Date&, const Date&);
+    Employee(); // 預設建構函式
+
+    // 設定函式（支援瀑布式函數呼叫）
+    Employee& setFirstName(const std::string&);
+    Employee& setLastName(const std::string&);
+    Employee& setBirthDate(int, int, int);
+    Employee& setHireDate(int, int, int);
+
     void print() const;
-    ~Pet();
+
 private:
-    std::string type;
-    std::string name;
-    const Date birthDate;
-    const Date adoptDate;
-    bool checkAge() const;
+    std::string firstName;
+    std::string lastName;
+    Date birthDate;
+    Date hireDate;
 };
 
 #endif
