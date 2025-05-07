@@ -1,20 +1,23 @@
+// Fig. 9.19: Employee.h
+// Employee class definition showing composition.
 #ifndef PET_H
 #define PET_H
 
 #include <string>
-#include "Date.h" 
+#include "Date.h"
+using namespace std;
 
 class Pet
 {
 public:
-    Pet(const std::string&, const std::string&,
-        const Date&, const Date&, int& year, int& yearA, int& month, int& monthA, int& date, int& dateA);
+    Pet(const string&, const string&,
+        const Date&, const Date&);
     void print() const;
-    ~Pet(); 
+    ~Pet();
 private:
-    std::string Name;
-    std::string Kind;
-    Date birthDate; 
-    Date AdoptDate;
-}; 
+    string name;
+    string species;
+    const Date birthDate;
+    const Date adoptDate;
+};
 #endif
