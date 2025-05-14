@@ -26,7 +26,7 @@ int main()
 	int i;
 	for (i = 0; i < 3; i++)
 	{
-		cout << "©m¦W	¨­°ª	Åé­«\n";
+		cout << "å§“å	èº«é«˜	é«”é‡\n";
 		cin >> member[i].name >> member[i].height >> member[i].weight;
 	}
 
@@ -37,19 +37,19 @@ int main()
 		switch (bmicompute(member, i))
 		{
 		case slim:
-			cout << "Åé­«¹L»´\n";
+			cout << "é«”é‡éŽè¼•\n";
 			break;
 		case normal:
-			cout << "Åé­«¥¿±`\n";
+			cout << "é«”é‡æ­£å¸¸\n";
 			break;
 		case  heavy:
-			cout << "Åé­«¹L­«\n";
+			cout << "é«”é‡éŽé‡\n";
 			break;
 		case fat:
-			cout << "­D¤l\n";
+			cout << "èƒ–å­\n";
 			break;
 		case toofat:
-			cout << "M1¦ã¥¬Äõ¥D¤O¾Ô¨®";
+			cout << "M1è‰¾å¸ƒè˜­ä¸»åŠ›æˆ°è»Š";
 			break;
 		}
 	}
@@ -60,9 +60,9 @@ int bmicompute(struct employee data[], int i)
 
 	int H;
 
-	float bmi; //BMI¡G¨­Åé½è¶q«ü¼Æ
+	float bmi; //BMIï¼šèº«é«”è³ªé‡æŒ‡æ•¸
 	bmi = data[i].weight / pow(data[i].height / 100.0, 2);
-	cout << data[i].name << "ªºÅé­«=" << data[i].weight
+	cout << data[i].name << "çš„é«”é‡=" << data[i].weight
 		<< "\tBMI=" << bmi << '\t';
 
 	if (bmi < 18.5)
