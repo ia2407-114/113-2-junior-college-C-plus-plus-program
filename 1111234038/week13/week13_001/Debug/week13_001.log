@@ -1,0 +1,5 @@
+﻿  Source.cpp
+E:\SANDISK 隨身碟\台中科大 NUTC\專二課程\下學期\程式設計_物件導向\week13\week13_001\Source.cpp(35,11): warning C4101: 'bmi': 未參考的區域變數
+E:\SANDISK 隨身碟\台中科大 NUTC\專二課程\下學期\程式設計_物件導向\week13\week13_001\Source.cpp(20,12): warning C4101: 'range': 未參考的區域變數
+E:\SANDISK 隨身碟\台中科大 NUTC\專二課程\下學期\程式設計_物件導向\week13\week13_001\Source.cpp(49,30): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  week13_001.vcxproj -> E:\SANDISK 隨身碟\台中科大 NUTC\專二課程\下學期\程式設計_物件導向\week13\week13_001\Debug\week13_001.exe
