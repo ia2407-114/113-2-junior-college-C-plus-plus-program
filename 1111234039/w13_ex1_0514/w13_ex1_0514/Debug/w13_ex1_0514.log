@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\資應二下劉祐呈\w13\w13_ex1_0514\w13_ex1_0514\Source.cpp(28,15): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  w13_ex1_0514.vcxproj -> D:\資應二下劉祐呈\w13\w13_ex1_0514\Debug\w13_ex1_0514.exe
