@@ -13,20 +13,20 @@ void bmicompute(struct employee[], int);
 int main()
 {
     int count;
-    cout << "½Ğ¿é¤J¤H¼Æ";
+    cout << "è«‹è¼¸å…¥äººæ•¸";
     cin >> count;
     employee* member = new employee[count];
     int hei, wei;
     string name;
     for (int i = 0; i < count; i++) {
-        cout << "½Ğ¿é¤J¦W¦r: ";
+        cout << "è«‹è¼¸å…¥åå­—: ";
         cin >> member[i].name;
-        cout << "½Ğ¿é¤J¨­°ª: ";
+        cout << "è«‹è¼¸å…¥èº«é«˜: ";
         cin >> member[i].height;
-        cout << "½Ğ¿é¤JÅé­« ";
+        cout << "è«‹è¼¸å…¥é«”é‡ ";
         cin >> member[i].weight;
     }
-    float bmi;  // bmi¡G¨­Åé½è¶q«ü¼Æ
+    float bmi;  // bmiï¼šèº«é«”è³ªé‡æŒ‡æ•¸
     bmicompute(member, count);
 
     return 0;
@@ -54,35 +54,35 @@ void bmicompute(struct employee data[], int size)
             mbmi = heavy;
         else
             mbmi = fat;
-        cout << data[i].name << "ªºÅé­«=" << data[i].weight
+        cout << data[i].name << "çš„é«”é‡=" << data[i].weight
             << "\tBMI=" << bmi << "\t";
         switch (mbmi) {
         case slim:
-            cout << "¹L»´\n";
+            cout << "éè¼•\n";
             break;
         case normal:
-            cout << "¥¿±`\n";
+            cout << "æ­£å¸¸\n";
             break;
         case heavy:
-            cout << "¹L­«\n";
+            cout << "éé‡\n";
             break;
         case fat:
-            cout << "ªÎ­D\n";
+            cout << "è‚¥èƒ–\n";
             break;
         }
 
 
         /*if (bmi < 18.5)
-            cout << "Åé­«¹L»´\n";
+            cout << "é«”é‡éè¼•\n";
         else if (bmi < 24)
-            cout << "Åé­«¦b¥¿±`½d³ò\n";
+            cout << "é«”é‡åœ¨æ­£å¸¸ç¯„åœ\n";
         else if (bmi < 27)
-            cout << "Åé­«¹L­«\n";
+            cout << "é«”é‡éé‡\n";
         else if (bmi < 30)
-            cout << "Åé­«»´«×ªÎ­D\n";
+            cout << "é«”é‡è¼•åº¦è‚¥èƒ–\n";
         else if (bmi < 35)
-            cout << "Åé­«¤¤«×ªÎ­D\n";
+            cout << "é«”é‡ä¸­åº¦è‚¥èƒ–\n";
         else
-            cout << "Åé­«­««×ªÎ­D\n";*/
+            cout << "é«”é‡é‡åº¦è‚¥èƒ–\n";*/
     }
 }
