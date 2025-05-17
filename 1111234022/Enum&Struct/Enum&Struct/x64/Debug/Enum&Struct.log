@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\Users\翁聖祐.LAPTOP-MGOJMOR2\OneDrive\Desktop\Enum&Struct\Source.cpp(41,23): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  Enum&Struct.vcxproj -> C:\Users\翁聖祐.LAPTOP-MGOJMOR2\OneDrive\Desktop\Enum&Struct\x64\Debug\Enum&Struct.exe
