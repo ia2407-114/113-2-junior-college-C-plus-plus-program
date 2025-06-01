@@ -1,0 +1,132 @@
+.row {
+    display: flex;
+    padding: 0 4px;
+}
+.column {
+    padding: 0 4px;  /*上下0，左右4px*/
+}
+.column img {
+    margin-top: 8px;	
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	height: auto;
+}
+.blue {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px;
+}
+.green {
+    flex-grow: 2;
+    flex-shrink: 2;
+    flex-basis: 300px;
+}
+
+/* media */
+* { 
+    box-sizing: border-box; 
+}
+.row-media {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.col-media {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+@media (max-width:1000px){
+    .col-media {
+        flex: 25%;
+        max-width: 25%;
+    }
+}
+@media (max-width:800px){
+    .col-media {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+@media (max-width: 600px){
+    .col-media {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+header {  /*導覽列格式設定*/
+	width: 100%;
+	height: 150px;
+	background-color: #1a100e;
+	border-bottom: 1px solid #381b15;
+}
+.logo {  /*導列列logo文字設定*/
+	color: #fff;
+    font-size: 1.5rem;
+	float: left;
+	margin: 3px;
+}
+nav {
+	float: right;
+	width: 50%;
+	text-align: right;
+	margin-right: 25px;
+}
+header nav ul {   /*導覽列logo文字超連結設定*/
+	list-style: none;
+	float: right;
+}
+nav ul li {  /*導覽列選項設定*/
+	float: left;
+	color: #ffffff;
+	font-size: 14px;
+	text-align: left;
+	margin-right: 25px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	transition: all 0.3s linear;
+}
+ul li a { /*導覽列超連結設定*/
+	color: #ffffff;
+}
+ul li:hover a { /*導覽列滑鼠移過超連結設定*/
+	color: #eceb44;
+}
+
+.box {
+	position: relative;
+	width: 100%;    
+}
+.overlay {
+	position: absolute;
+	bottom: 100%; /*從上往下*/
+	left: 0;
+	right: 0;
+	background-image: linear-gradient(to top, rgb(250, 112, 154, 0.8) 0%, rgb(254, 225, 64, 0.8) 100%);
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	transform: scale(0.5) rotateY(360deg); /*以參考點為中心縮放0.5倍，旋轉360度*/
+   	transition: all 1.2s;
+}  
+.box:hover .overlay {
+	bottom: 0;
+	height: 100%;
+	transform: scale(1) rotateY(0deg); /*以參考點為中心縮放1倍，旋轉θ度*/
+}  
+
+.text {
+	font-family: 'Petit Formal Script', cursive;
+	font-weight: 900;
+	white-space: nowrap; 
+	color: #1f1f1f;
+	font-size: 1.2rem;
+	border-bottom: 5px solid white;
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); /*往右移-50%，往下移-50%*/	
+}
