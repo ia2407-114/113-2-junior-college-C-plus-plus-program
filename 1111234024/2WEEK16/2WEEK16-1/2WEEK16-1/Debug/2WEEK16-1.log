@@ -1,0 +1,2 @@
+﻿  air.cpp
+C:\Users\User\Desktop\2WEEK16\2WEEK16-1\2WEEK16-1\air.cpp(18,33): error C2600: 'flight_object::~flight_object': 無法定義編譯器產生的特殊成員函式 (必須先在類別中宣告)
