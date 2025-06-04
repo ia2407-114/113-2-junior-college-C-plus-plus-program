@@ -1,0 +1,7 @@
+﻿  Source.cpp
+  operator.cpp
+C:\Users\User\Desktop\W15-02\W15-02\operator.cpp(26,13): warning C4566: 由通用字元名稱 '\u00BF' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\W15-02\W15-02\operator.cpp(26,13): warning C4566: 由通用字元名稱 '\u00E9' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\W15-02\W15-02\operator.cpp(26,13): warning C4566: 由通用字元名稱 '\u00A4' 表示的字元，無法在目前的字碼頁中表示 (950)
+  正在產生程式碼...
+  W15-02.vcxproj -> C:\Users\User\Desktop\W15-02\Debug\W15-02.exe
