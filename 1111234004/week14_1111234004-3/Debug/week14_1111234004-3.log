@@ -1,0 +1,16 @@
+﻿  Source.cpp
+C:\Users\User\Desktop\week14_1111234004-3\Source.cpp(10,13): warning C4566: 由通用字元名稱 '\u00AC' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\week14_1111234004-3\Source.cpp(10,32): warning C4566: 由通用字元名稱 '\u00AC' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\week14_1111234004-3\Source.cpp(11,12): warning C4566: 由通用字元名稱 '\u00A4' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\week14_1111234004-3\Source.cpp(11,12): warning C4566: 由通用字元名稱 '\u00F1' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\week14_1111234004-3\Source.cpp(11,12): warning C4566: 由通用字元名稱 '\u00B8' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\week14_1111234004-3\Source.cpp(11,12): warning C4566: 由通用字元名稱 '\u00FB' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\week14_1111234004-3\Source.cpp(11,12): warning C4566: 由通用字元名稱 '\u00BB' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\week14_1111234004-3\Source.cpp(22,13): warning C4566: 由通用字元名稱 '\u00AC' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\week14_1111234004-3\Source.cpp(22,36): warning C4566: 由通用字元名稱 '\u00AC' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\week14_1111234004-3\Source.cpp(23,12): warning C4566: 由通用字元名稱 '\u00A4' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\week14_1111234004-3\Source.cpp(23,12): warning C4566: 由通用字元名稱 '\u00F1' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\week14_1111234004-3\Source.cpp(23,12): warning C4566: 由通用字元名稱 '\u00B8' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\week14_1111234004-3\Source.cpp(23,12): warning C4566: 由通用字元名稱 '\u00FB' 表示的字元，無法在目前的字碼頁中表示 (950)
+C:\Users\User\Desktop\week14_1111234004-3\Source.cpp(23,12): warning C4566: 由通用字元名稱 '\u00BB' 表示的字元，無法在目前的字碼頁中表示 (950)
+  week14_1111234004-3.vcxproj -> C:\Users\User\Desktop\week14_1111234004-3\Debug\week14_1111234004-3.exe
