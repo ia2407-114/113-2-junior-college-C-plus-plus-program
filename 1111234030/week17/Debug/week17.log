@@ -1,0 +1,5 @@
+﻿  Source.cpp
+D:\1111234030\program\week17\Source.cpp(6,12): warning C4326: 'main' 的傳回類型應該是 'int'，而非 'void'
+  impl.cpp
+  正在產生程式碼...
+  week17.vcxproj -> D:\1111234030\program\week17\Debug\week17.exe
