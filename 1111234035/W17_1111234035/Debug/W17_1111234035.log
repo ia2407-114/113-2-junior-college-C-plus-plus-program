@@ -1,0 +1,5 @@
+﻿  circle.cpp
+  main.cpp
+C:\Users\User\source\repos\W17_1111234035\main.cpp(3,13): warning C4326: 'main' 的傳回類型應該是 'int'，而非 'void'
+  正在產生程式碼...
+  W17_1111234035.vcxproj -> C:\Users\User\source\repos\W17_1111234035\Debug\W17_1111234035.exe
